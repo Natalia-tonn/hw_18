@@ -1,0 +1,150 @@
+.contactsSection {
+    padding: 50px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif; 
+  }
+  
+  .contactsInfo {
+    margin-bottom: 30px;
+    width: 100%; 
+  }
+  
+  .contactsInfo h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .contactsInfo ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .contactsInfo li {
+    font-size: 1rem;
+    margin-bottom: 5px;
+  }
+  
+  .separator {
+    width: 100%; 
+    height: 1px;
+    background-color: #ddd;
+    margin: 30px 0;  
+  }
+  
+  .contactsContainer {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    width: 100%;
+  }
+  
+  .formContainer {
+    flex: 2;
+  }
+  
+  .inputsGroup {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+  }
+  
+  .inputField,
+  .textAreaField {
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    transition: border-color 0.2s;
+    width: 100%; 
+    box-sizing: border-box;
+    background: #FAFAFA;
+
+  }
+  
+  .inputField:focus,
+  .textAreaField:focus {
+    border-color: #007bff;
+    width: 100%; 
+    box-sizing: border-box;
+  }
+  
+  .textAreaField {
+    min-height: 100px;
+    resize: vertical;
+    width: 100%; 
+    box-sizing: border-box;
+  }
+  
+
+  .buttonContainer {
+    text-align: right; 
+    margin-top: 20px; 
+
+  }
+  
+  .submitButton {
+    background-color: #000; 
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .submitButton:hover {
+    background-color: #333; 
+  }
+  
+  .error {
+    color: red;
+    font-size: 0.875rem;
+    margin-top: -10px;
+  }
+  
+  .socialMedia {
+    width: 458px;
+    height: 221px;
+    margin-left: 50px;
+    flex: 1;
+
+    background: #FAFAFA;
+
+
+  }
+  
+  .socialMedia h2 {
+    margin-top: 20px;
+    text-align: center;
+    clor: rgba(0, 0, 0, 0.7);
+
+  }
+  
+  .socialIcons {
+
+    display: flex;
+    gap: 50px;
+    padding: 65px;
+  }
+  
+  .socialIcons a img {
+
+    transition: transform 0.2s;
+  }
+  
+  .socialIcons a img:hover {
+    transform: scale(1.1);
+  }
+  
+  

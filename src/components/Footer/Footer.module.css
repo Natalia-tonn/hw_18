@@ -1,0 +1,67 @@
+
+.footer {
+    height: 347px;
+    background-color: #232425;
+    color: #FFFFFF;
+    padding: 20px 50px;
+    font-family: "Montserrat", sans-serif; 
+    
+}
+.footer_container{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.footer_left  {
+    text-align: left;
+
+}
+/* .footer_left h2, .footer_left p {
+    margin: 0;
+} */
+
+
+.footer_left p.text_sneak{
+    margin-top: 93px;
+    font-size: 14px;
+  
+}
+
+.email_input {
+    margin-top: 10px;
+    margin-bottom: 65px;
+}
+.email_input label {
+    display: block;
+
+
+
+ 
+}
+
+.email_input input {
+ 
+    padding: 5px;
+    border: none;
+    border-bottom: 1px solid #c9c9c9;
+    background: transparent;
+    color: #c9c9c9;
+    float: left;
+}
+
+
+.email_input label {
+    float: left;
+    margin-right: 10px; 
+}
+
+.email_input input {
+    display: flex;
+    flex-direction: column;
+}
+.fight_icons a{
+    width: 76px;
+    height: 76px;
+margin-left: 26px;
+}
